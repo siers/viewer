@@ -1,0 +1,15 @@
+- viewer, simple html image viewer
+    A little gallery viewer for my http server. It takes an argument that is expected
+    to be a js-reachable path passed through appending "#/path/to/there" to the URL.
+
+    It's very handy for slideshowing if the http server has directory listings enabled.
+
+    Uses fancybox, boilerplate of index.html taken from fancybox's demo.
+
+- howto
+    copy it on your http root as directory viewer
+    put some pretty pictures in http://localhost/pictures
+    open http://localhost/viewer#/pictures
+
+- also
+    Take a look at the code, it's simple and neat.
